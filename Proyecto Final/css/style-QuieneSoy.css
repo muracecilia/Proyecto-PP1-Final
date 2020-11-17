@@ -1,0 +1,14 @@
+.contenedor-QS{
+    background-color: rgba(238, 163, 138, 0.808);
+    margin: auto;
+}
+.contenedor-QS img{
+    padding: 20px 20px;
+    width: 70%;
+    height: 80%;
+    display: block;/*se comporta como si fuera de bloque*/
+    margin-left: auto;/*margen izquierdo*/
+    margin-right: auto;/*margen derecho*/
+    
+}
+

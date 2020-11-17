@@ -1,0 +1,78 @@
+/*----------------------------------Estilos del Main -------------------------------*/
+
+.galeria{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 0px 10px 5px; /*separa de los margenes el contenido*/
+    box-sizing: border-box; /* tamaño de la caja*/
+}
+.contenedor-galeria{
+    max-width: 1330px;
+    height: 360px;/*altura del contenedor*/ 
+    display: flex;/*las imagen se mueven una a lado de otra*/
+    justify-content: center;/*justificar el contenido en el centro*/
+    margin: auto;/*margen automatico a cada lado*/
+    flex-wrap: wrap;/*caja flexibles*/
+}
+.menu-galeria{
+    width: 290px;
+    height: 350px;
+    border-radius: 15px;/*borde redondeado*/
+    box-shadow: 0 2px 2px rgb(137, 197, 247); /*Sombra de la caja*/
+    margin: 5px;/*margen entre cada caja*/
+    text-align: center;/*texto alineado*/
+    transition: all 0.25s;/*lentitud el efecto*/
+}
+.menu-galeria:hover{
+    transform: translateY(-15px);/*traslada y flota*/
+    box-shadow: 0 12px 16px rgb(137, 197, 247); /*Sombra de la caja*/
+}
+.menu-galeria img{
+    width: 250px; /*tamaño de la Imagen*/
+    height: 250px;
+    border-radius: 15px;/*borde redondeado*/
+}
+.menu-galeria h4{
+    /*color: rgb(51, 185, 168);*/
+    color: deeppink;
+    font-size: 1.7rem;
+   
+}
+.menu-galeria a{
+    text-decoration: none;
+}
+
+
+.description-principal{
+    color: black; /*color de fuente*/
+    padding: 20px 20px 20px 30px; /*separa de los margenes el contenido*/
+    margin-bottom: 30px;
+}
+.descripcion-columna{
+    display: flex;/*para que sea flexible el contenido y se coloque uno a ladod el otro*/
+    justify-content: space-between;/*todos puedan abarcar el 100% de su lugar*/
+    max-width: 1335px;
+    width: 100%;
+}
+.columna2{
+    max-width: 50%;/*maximo de ancho*/
+}
+.titulo-columna{
+    font-size: 2.2rem;
+    font-family: cursive;
+    color: deeppink;
+    text-align: center;
+    margin-top: -5px;
+}
+.texto-columna{
+    font-size: 1.25rem;
+    font-family: cursive;
+    color: deeppink;
+    text-align: justify;
+    margin-top: -16px;
+    margin-right: 5%;
+}
+.columna2 img{
+    border-radius: 8px;
+    margin-left: 5%;
+}

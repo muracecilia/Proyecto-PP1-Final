@@ -1,0 +1,71 @@
+
+/*----------------------------------Estilos del Encabezado -------------------------------*/
+
+body{
+    width: 1335px;/*tamaño total de la pagina*/
+    margin: auto;
+   
+}
+.logo img{
+    margin-top: 10px;/*margen superior para la imagen*/
+    margin-bottom: 5px;/*margen inferior para la imagen*/
+    width: 150px;
+    height: 90px;
+    display: block;/*se comporta como si fuera de bloque*/
+    margin-left: auto;/*margen izquierdo*/
+    margin-right: auto;/*margen derecho*/
+}
+
+.nav--menu{
+    padding: 14px;/*tamaño del menu*/
+    background-color: rgba(86, 223, 143, 0.616);
+    position: relative;
+    width: 98%;
+    
+}
+.nav--menu a{
+    text-decoration: none;/*saca el subrayado*/
+    margin-right: 1em;/*margen derecho entre texto del menu*/
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    padding: 14px;/*alto del efecto*/
+}
+.nav--menu a:hover{
+    background-color: rgba(49, 172, 100, 0.63);
+}
+
+/*----------------------------------Estilos del Footer -------------------------------*/
+
+.footer-principal{
+    background-color: rgba(86, 223, 143, 0.616); /*color de fondo*/
+    color: white; /*color de fuente*/
+    padding: 0px 10px 5px; /*separa de los margenes el contenido*/
+    box-sizing: border-box; /* tamaño de la caja agranda hacia adentro*/
+}
+.contenedor-columna{
+    display: flex;/*para que sea flexible el contenido y se coloque uno a ladod el otro*/
+    justify-content: space-between;/*todos puedan abarcar el 100% de su lugar*/
+    max-width: 1335px;
+    width: 100%;
+}
+.columna{
+    max-width: 25%;/*maximo de ancho*/
+}
+
+.columna a{
+    text-decoration: none;/*saca el subrayado*/
+    font-size: 1em;
+    color: white;
+    vertical-align: middle;/*alineado texto al Centro*/
+}
+.columna img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px; /*margen derecho*/
+    vertical-align: middle;/*alineado Imagen al Centro*/
+}
+.columna h3{
+    font-weight: 100;/*sacar el grosor de la letra*/
+    font-size: 1em;
+}

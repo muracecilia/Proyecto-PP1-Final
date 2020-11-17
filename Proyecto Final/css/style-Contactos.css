@@ -1,0 +1,44 @@
+.columna img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px; /*margen derecho*/
+    vertical-align: middle;/*alineado Imagen al Centro*/
+}
+.contenedor-contacto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    background-image: url("../img/contactos.jpg");
+    
+}
+textarea{
+    resize: none;
+    border-radius: 5%;
+    border: 1px solid rgb(226, 7, 171);
+}
+#btnc{ 
+    background-color: rgb(180, 41, 41);
+}
+#btnc:hover{ /*los ventos se colocan con :, hover, en este caso el objeto cambia de color cuando paso el mouse*/
+    background-color:  rgb(179, 67, 67);/*color de fondo*/
+}
+input[type=button]{/*cuando quiero que todos los botones tengan las mismas caracteristicas los coloco en [corchetes]*/
+    background-color: #4CAF50;/*color de fondo*/
+    color: white; /*color de letra*/
+    padding: 14px 20px;/*es el margen del contenido del contenedor*/
+    margin: 10px 20px;/*margenes*/
+    border: none;/*sin bordes*/
+    border-radius: 4px;/*bordes redondeados*/
+    width: 35%;/*tamaño del boton*/
+    cursor: pointer;/*se hace la manito cuando paso por el boton*/
+}
+input[type=button]:hover{ /*los ventos se colocan con :, hover, en este caso el objeto cambia de color cuando paso el mouse*/
+    background-color: #45a049;/*color de fondo*/
+}
+input[type=text]{
+    margin-bottom: 15px;
+    border-radius: 7%;
+    border: 1px solid rgb(226, 7, 171);
+    padding: 5px;
+}

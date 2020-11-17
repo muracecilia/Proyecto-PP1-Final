@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-Contactos.css">
+    <script type="text/javascript" src="./js/contactos.js"></script>
+</head>
+<body>
+    <header>
+        <!--Navegador de la pagina-->
+       
+            <div class="logo">
+                <img src="./img/logo.png">
+            </div>
+
+            <!--Navegador de la pagina-->
+            <nav>
+                <div class="nav--menu">
+                    <a href="./index.html">INICIO</a>
+                    <a href="./Productos.html">PRODUCTOS</a>
+                    <a href="./QuienesSomos.htm">QUIENES SOMOS</a>
+                    <a href="./Contactos.html">CONTACTO</a>
+                </div>
+            </nav>
+            
+    </header>
+
+    <main>
+        <section class="contenedor-contacto">
+            
+            <div>
+                <h1>Tus Datos:</h1>
+                Nombre : 
+                <br>
+                <input type="text" id="txtNombre" name="PrimerNombre" placeholder="Tu Nombre ....">
+                <br>
+                Mail:
+                <br>
+                <input type="text" id="txtMail" name="Mail" placeholder="Tu Mail ....">
+                <br>
+                Telefono:
+                <br>
+                <input type="text" id="txtNumero" name="Numero" placeholder="Tu Telefono ....">
+                <br>
+                Escribe tu Consulta :
+                <br>
+                <textarea id="txtConsulta" cols="40" rows="6"  name="Numero">
+                </textarea>
+                <br>
+                <br>
+                <input type="button" value="Guardar" onclick="agregar()">
+                <input id="btnc" type="button" value="Cancelar" onclick="cerrar()">
+            </div>
+
+            <div class="columna">
+                <h1>Nuestro Contacto:</h1>
+                <p><img src="img/whatsapp.png">+54 (11) 15-6659-2574</p>
+                <p><img src="img/mail.png">muracecili@gmail.com</p>
+                <p><img src="img/ubicacion.png">Pte J. D. Perón 4385, R. Calzada, Bs As</p>
+                            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!
+                                1d3276.6714876924384!2d-58.343212385556726!3d-34.78904458041192!2m3
+                                !1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32c93cf7f9a8b%3
+                                A0xa9b8e553c3d262aa!2sPres.%20Juan%20Domingo%20Per%C3%B3n%204385%2C
+                                %20Claypole%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2
+                                sar!4v1599509480636!5m2!1ses-419!2sar" width="270" height="220" 
+                                frameborder="0" style="border:0;" allowfullscreen="" 
+                                aria-hidden="false" tabindex="0">
+                            </iframe>         
+            </div>
+
+        </section>
+     
+    </main>
+
+    <footer>
+        <div class="footer-principal">
+            <div class="contenedor-columna">
+                <div class="columna">
+                    <h3>NAVEGACION</h3>
+                        <p><a href="./index.html">Inicio</a></p>
+                        <p><a href="./Productos.html">Productos</a></p>
+                        <p><a href="./QuienesSomos.htm">Quien Soy</a></p>
+                </div>
+                <div class="columna">
+                    <h3> CONTACTANOS</h3>
+                        <p><img src="img/whatsapp.png">+54 (11) 15-6659-2574</p>
+                        <p><img src="img/mail.png">muracecili@gmail.com</p>                     
+                </div>
+                <div class="columna">
+                    <h3>REDES SOCIALES</h3>
+                        <p><img src="img/facebook.png"><a href="https://es-la.facebook.com/Mi-Pastelinda-232875300581760/">Siguenos en Facebook</a></p>
+                        <p><img src="img/instagram.png"><a href="https://www.instagram.com/mipastelinda/">Siguenos en Instagram</a></p>
+               </div>
+                <div class="columna">
+                    <h3>NUESTRA UBICACION</h3>
+                        <p><img src="img/ubicacion.png">Pte J. D. Perón 4385, R. Calzada, Bs As</p>
+                            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!
+                                1d3276.6714876924384!2d-58.343212385556726!3d-34.78904458041192!2m3
+                                !1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32c93cf7f9a8b%3
+                                A0xa9b8e553c3d262aa!2sPres.%20Juan%20Domingo%20Per%C3%B3n%204385%2C
+                                %20Claypole%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2
+                                sar!4v1599509480636!5m2!1ses-419!2sar" width="170" height="100" 
+                                frameborder="0" style="border:0;" allowfullscreen="" 
+                                aria-hidden="false" tabindex="0">
+                            </iframe>
+                
+                </div>
+            </div>    
+        </div>                
+    </footer>
+</body>
+</html>
